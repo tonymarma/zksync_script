@@ -1,6 +1,6 @@
 
 ```
-git clone https://github.com/czbag/zksync.git
+git clone https://github.com/tonymarma/zksync_script.git
 
 cd zksync
 
