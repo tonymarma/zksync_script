@@ -19,84 +19,83 @@ pip install -r requirements.txt
 python main.py
 ```
 ---
-<h2>🚨 Возможности</h2>
+<h2> Features </h2>
 
-1) Бридж через официальный мост (ввод/вывод)
+Official bridge (input/output)
 
-2) Бридж через Orbiter
+Orbiter bridge
 
-3) Wrap/Unwrap ETH
+Wrap/Unwrap ETH
 
-5) Свапы через SyncSwap (+ ликвидность)
+Swaps through SyncSwap (+ liquidity)
 
-6) Свапы через Mute
+Swaps through Mute
 
-7) Свапы через SpaceFi (+ ликвидность)
+Swaps through SpaceFi (+ liquidity)
 
-8) Свапы через PancakeSwap
+Swaps through PancakeSwap
 
-9) Свапы через WooFi
+Swaps through WooFi
 
-10) Свапы через Velocore
+Swaps through Velocore
 
-11) Свапы через Odos (включен мой реф код, 1% от суммы транзы идет мне, приходят не от вас, а от контракта одоса! можно выключить в конфиге)
+Swaps through Odos (my referral code enabled, 1% of transaction amount goes to me, received from the Odos contract, can be disabled in the config)
 
-12) Свапы через ZkSwap
+Swaps through ZkSwap
 
-13) Свапы через XY.Finance (включен мой реф код, 1% от суммы транзы идет мне, приходят не от вас, а от контракта xy! можно выключить в конфиге)
+Swaps through XY.Finance (my referral code enabled, 1% of transaction amount goes to me, received from the XY contract, can be disabled in the config)
 
-14) Свапы через OpenOcean (включен мой реф код, 1% от суммы транзы идет мне, приходят не от вас, а от контракта OO! можно выключить в конфиге)
+Swaps through OpenOcean (my referral code enabled, 1% of transaction amount goes to me, received from the OO contract, can be disabled in the config)
 
-15) Свапы через 1inch (включен мой реф код, 1% от суммы транзы идет мне, приходят не от вас, а от контракта 1inch! можно выключить в конфиге)
+Swaps through 1inch (my referral code enabled, 1% of transaction amount goes to me, received from the 1inch contract, can be disabled in the config)
 
-16) Bungee refuel
+Bungee refuel
 
-17) Stargate бридж токена MAV в BSC сеть
+Stargate bridge for MAV token to BSC network
 
-18) Депозит в Eralend (+ возможность вывода после депа)
+Deposit in Eralend (+ withdrawal option after deposit)
 
-19) Вывод с Eralend (если хотите оставить средства в Eralend на какое-то время)
+Withdrawal from Eralend (if you want to leave funds in Eralend for some time)
 
-20) Депозит в Basilisk (+ возможность вывода после депа)
+Deposit in Basilisk (+ withdrawal option after deposit)
 
-21) Вывод с Basilisk (если хотите оставить средства в Basilisk на какое-то время)
+Withdrawal from Basilisk (if you want to leave funds in Basilisk for some time)
 
-22) Депозит в ReactFusion (+ возможность вывода после депа)
+Deposit in ReactFusion (+ withdrawal option after deposit)
 
-23) Вывод с ReactFusion (если хотите оставить средства в ReactFusion на какое-то время)
+Withdrawal from ReactFusion (if you want to leave funds in ReactFusion for some time)
 
-24) Создание NFT коллекции в Omnisea
+Creating NFT collection in Omnisea
 
-25) Mint + Brdige NFT через L2Telegraph (только в arb nova)
+Mint + Bridge NFT through L2Telegraph (only in arb nova)
 
-26) Отправка месседжей через L2Telegraph (только в arb nova)
+Sending messages through L2Telegraph (only in arb nova)
 
-27) Минт пустой NFT
+Minting an empty NFT
 
-28) Минт Tavaera ID + NFT
+Minting Tavaera ID + NFT
 
-29) Минт zks.network домена
+Minting zks.network domain
 
-30) Минт era.name домена
+Minting era.name domain
 
-31) Dmail
+Dmail
 
-32) Возможность мультисвапов - совершает указанное количество обменов в указанных дексах
+Multiswaps capability - performs the specified number of exchanges on specified DEXs
 
-33) Кастомные роуты - действия которые будут выполняться последовательно, либо в рандомном порядке
+Custom routes - actions that will be executed sequentially or in random order
 
-34) Мультиапрув - апрув либо отмена апрува для всех токенов, во всех дексах
+Multi-approval - approve or cancel approval for all tokens, in all DEXs
 
-35) Деплой контракта токена и минт его же
+Token contract deployment and minting
 
-36) Чекер транз
+Transaction checker
 
-37) Использование прокси, 1 акк - 1 прокси, если акков 10, а прокси 5, будет прокручено 5 акков
+Proxy usage, 1 account - 1 proxy, if there are 10 accounts and 5 proxies, 5 accounts will be processed
 
-38) Логирование через logger
+Logging via logger
 
-39) Чекер газа перед стартом модуля
-
+Gas checker before starting the module
 ---
 <h2>⚙️ Настройка</h2>
 
