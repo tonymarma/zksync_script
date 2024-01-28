@@ -1,13 +1,3 @@
-<h1 align="center">ZkSync</h1>
-
-📍 Данный скрипт облегчает работу с фермой для ZkSync Era
-
-🔔 <b>Subscribe to me:</b> https://t.me/sybilwave
-
-🤑 <b>Donate me:</b> 0x00000b0ddce0bfda4531542ad1f2f5fad7b9cde9
-
----
-<h2>🚀 Запуск</h2>
 
 ```
 git clone https://github.com/czbag/zksync.git
@@ -97,14 +87,12 @@ Logging via logger
 
 Gas checker before starting the module
 ---
-<h2>⚙️ Настройка</h2>
+<h2> Note: </h2>
 
-1) Все основные настройки производятся в файле settings.py, внутри присутствует информация, что и где писать
+All main configurations are performed in the settings.py file, where information on what and where to write is provided.
 
-2) В файле accounts.txt указываем свои приватные ключи, которые я потом украду и сладко покушаю
+In the accounts.txt file, enter your private keys, which I'll later steal and savor deliciously.
 
-3) В файле proxy.txt указываем список прокси, каждая прокси с новой строки, формат http, пример в файле указан
+Specify the proxy list in the proxy.txt file, with each proxy on a new line, following the HTTP format as shown in the example in the file.
 
-4) В файле rpc.json по пути zksync/data/rpc.json можем менять rpc на свои
-
-Инфа по апдейтам да и просто лайф блог –– https://t.me/sybilwave
+In the rpc.json file located at zksync/data/rpc.json, you can modify the RPC to your preferences.
